@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap-wechat-theme",
+  "version": "0.0.1",
+  "description": "一个基于bootstrap的微信主题",
+  "main": "index.html",
+  "author": "lancer lin",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {
+    "weui": "^1.1.2"
+  }
+}

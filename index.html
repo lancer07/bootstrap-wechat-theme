@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/pretty.css" />
+    <link rel="stylesheet" href="css/bootstrap.wechat.theme.css" />
+    <title>Bootstrap Wechat Theme</title>
+</head>
+<body>
+    <div class="container">         
+        <h1 class="text-center">Bootstrap Wechat Theme</h1>
+        <h2>表单类</h2>
+        
+        <h3>按钮</h3>
+        <button type="button" class="btn btn-lg btn-success btn-block">页面主操作</button>
+        <button type="button" class="btn btn-lg btn-default btn-block">页面次要操作</button>
+        <button type="button" class="btn btn-lg btn-danger btn-block">警告类操作</button>
+        
+        <h3>复选列表</h3>
+        <div class="cell">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <label class="btn-block">
+                        <div class="pretty circle success">
+                            <input type="checkbox" name="hobby" value="1"/>
+                            <label><i class="fa fa-check"></i></label>
+                        </div>
+                        足球
+                    </label>
+                </li>
+                <li class="list-group-item">
+                    <label class="btn-block">
+                        <div class="pretty circle success">
+                            <input type="checkbox" name="hobby" value="2"/>
+                            <label><i class="fa fa-check"></i></label>
+                        </div>
+                        篮球
+                    </label>
+                </li>
+                <li class="list-group-item">
+                    <label class="btn-block">
+                        <div class="pretty circle success">
+                            <input type="checkbox" name="hobby" value="2"/>
+                            <label><i class="fa fa-check"></i></label>
+                        </div>
+                        排球
+                    </label>
+                </li>
+            </ul>
+        </div>
+        
+        <h3>单选列表</h3>
+        <div class="cell">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <label class="btn-block">
+                        <div class="pretty o-success pull-right">
+                            <input type="radio" name="sex" value="1"/>
+                            <label><i class="fa fa-check"></i></label>
+                        </div>
+                        男
+                    </label>
+                </li>
+                <li class="list-group-item">
+                    <label class="btn-block">
+                        <div class="pretty o-success pull-right">
+                            <input type="radio" name="sex" value="2"/>
+                            <label><i class="fa fa-check"></i></label>
+                        </div>
+                        女
+                    </label>
+                </li>
+            </ul>
+        </div>
+        
+        <h3>表单</h3>
+        <div class="cell">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-xs-3 control-label">Email</label>
+                    <div class="col-xs-9">
+                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-xs-3 control-label">Password</label>
+                    <div class="col-xs-9">
+                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputPassword3" class="col-xs-3 control-label">手机</label>
+                    <div class="col-xs-6">
+                        <input type="password" class="form-control" placeholder="mobile">
+                    </div>
+                    <div class="col-xs-3">
+                         <button type="button" class="btn btn-link ">获取验证码</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        
+        <h3>列表</h3>
+        <div class="cell">
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <a href="javascript:;">
+                        <i class="pull-right fa fa-angle-right"></i>
+                        链接一
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="javascript:;">
+                        <i class="pull-right fa fa-angle-right"></i>
+                        链接一
+                    </a>
+                </li>
+                <li class="list-group-item">
+                    <a href="javascript:;">
+                        <i class="pull-right fa fa-angle-right"></i>
+                        链接一
+                    </a>
+                </li>
+                    
+            </ul>
+        </div>
+        
+        <h3>警告</h3>
+        <div class="cell">
+            
+            <div class="media icon-box">
+                <div class="media-left">
+                    <div class="btn-success img-circle">
+                        <i class="fa fa-5x fa-check"></i>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">成功</h4>
+                    <p>用于表示操作顺利达成</p>
+                </div>
+            </div>
+
+            <div class="media icon-box">
+                <div class="media-left">
+                    <div class="btn-info img-circle">
+                        <i class="fa fa-5x fa-info"></i>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">提示</h4>
+                    <p>用于表示信息提示；也常用于缺乏条件的操作拦截，提示用户所需信息</p>
+                </div>
+            </div>
+
+            <div class="media icon-box">
+                <div class="media-left">
+                    <div class="btn-warning img-circle">
+                        <i class="fa fa-5x fa-exclamation"></i>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">普通警告</h4>
+                    <p>用于表示操作后将引起一定后果的情况</p>
+                </div>
+            </div>
+            <div class="media icon-box">
+                <div class="media-left">
+                    <div class="btn-danger img-circle">
+                        <i class="fa fa-5x fa-exclamation"></i>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">强烈警告</h4>
+                    <p>用于表示操作后将引起严重的不可挽回的后果的情况</p>
+                </div>
+            </div>
+            
+            <div class="media icon-box">
+                <div class="media-left">
+                    <div class="btn-info img-circle">
+                        <i class="fa fa-4x fa-hourglass-o"></i>
+                    </div>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">等待</h4>
+                    <p>用于表示等待</p>
+                </div>
+            </div>
+
+        </div>
+        
+        <h3>加载</h3>
+        <div class="cell">
+            <p class="text-center"><i class="fa fa-circle-o-notch fa-spin"></i> 正在加载</p>
+            <p class="text-center text-muted">暂无数据</p>
+            <p class="text-center text-muted"><i class="fa fa-angle-double-down"></i> 加载更多</p>
+        </div>
+
+        
+        <h3>表单预览</h3>
+        <div class="panel panel-default panel-preview">
+            <div class="panel-heading">
+                <span class="pull-right">¥2400.00</span>
+                付款金额
+            </div>
+           
+            <ul class="list-group text-muted">
+                <li class="list-group-item">
+                    <span class="pull-right text-right">电动打蛋机</span>
+                    商品
+                </li>
+                <li class="list-group-item">
+                    <span class="pull-right text-right">一个好用的电动打蛋机</span>
+                    描述
+                </li>
+            </ul>
+            
+            <div class="panel-footer">
+                <div class="col-xs-6 br">
+                    <button class="btn btn-block btn-lg btn-link">
+                        <span class="text-muted">辅助操作</span>
+                    </button>
+                </div>
+                <div class="col-xs-6">
+                    <button class="btn btn-block btn-lg btn-link">
+                        <span class="text-success">操作</span>
+                    </button>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+
+        
+        <h3>对话框</h3>
+        <div class="modal modal-ios" style="display:block;position:static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center">弹窗标题</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</p>
+                    </div>
+                    <div class="modal-footer">
+                        <div class="col-xs-6 br">
+                            <button class="btn btn-block btn-lg btn-link">
+                                <span class="text-muted">辅助操作</span>
+                            </button>
+                        </div>
+                        <div class="col-xs-6">
+                            <button class="btn btn-block btn-lg btn-link">
+                                <span class="text-success">操作</span>
+                            </button>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal modal-ios" style="display:block;position:static">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title text-center"></h4>
+                    </div>
+                    <div class="modal-body">
+                        <p class="text-muted">弹窗内容，告知当前状态、信息和解决方法，描述文字尽量控制在三行内</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-block btn-lg btn-link">
+                            <span class="text-success">知道了</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3>弹出式提示</h3>
+        <div class="modal modal-ios" style="display:block;position:static">
+            <div class="modal-dialog text-center">
+                <div class="toast text-center">
+                    <i class="fa fa-4x fa-check"></i>
+                    <p>已完成</p>
+                </div>
+            </div>
+        </div>
+        <div class="modal modal-ios" style="display:block;position:static">
+            <div class="modal-dialog text-center">
+                <div class="toast text-center">
+                    <i class="fa fa-4x fa-circle-o-notch fa-spin"></i>
+                    <p>数据加载中</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<br /><br />
+</body>
+</html>
