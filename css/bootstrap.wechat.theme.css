@@ -140,12 +140,13 @@
   border-top: 1px solid #ddd;
   background: none;
   padding: 0;
+  text-align: center;
 }
-.panel-preview .panel-footer .col-xs-6 {
-  padding: 0;
+.panel-preview .panel-footer .btn:last-child {
+  border-left: 1px solid #ddd;
 }
-.panel-preview .panel-footer .col-xs-6.br {
-  border-right: 1px solid #ddd;
+.panel-preview .panel-footer .btn:first-child {
+  border-left: 0;
 }
 .modal-ios .modal-header {
   border-bottom: 0;
@@ -156,12 +157,13 @@
 }
 .modal-ios .modal-footer {
   padding: 0;
+  text-align: center;
 }
-.modal-ios .modal-footer .col-xs-6 {
-  padding: 0;
+.modal-ios .modal-footer .btn:last-child {
+  border-left: 1px solid #ddd;
 }
-.modal-ios .modal-footer .col-xs-6.br {
-  border-right: 1px solid #ddd;
+.modal-ios .modal-footer .btn:first-child {
+  border-left: 0;
 }
 .toast {
   color: #fff;
