@@ -1,17 +1,14 @@
-.cell {
-  margin: 0 -15px;
-}
-.cell .list-group {
+.wechat .list-group {
   background-color: #FFFFFF;
   line-height: 1.47058824;
   font-size: 17px;
   overflow: hidden;
   position: relative;
 }
-.cell .list-group .list-group-item {
+.wechat .list-group .list-group-item {
   border: 0;
 }
-.cell .list-group .list-group-item:before {
+.wechat .list-group .list-group-item:before {
   content: " ";
   position: absolute;
   left: 0;
@@ -27,13 +24,13 @@
   left: 15px;
   z-index: 2;
 }
-.cell .list-group .list-group-item a {
+.wechat .list-group .list-group-item a {
   color: #333;
 }
-.cell .list-group .list-group-item a .fa {
+.wechat .list-group .list-group-item a .fa {
   color: #999;
 }
-.cell .list-group:after {
+.wechat .list-group:after {
   content: " ";
   position: absolute;
   left: 0;
@@ -49,7 +46,7 @@
   left: 15px;
   z-index: 2;
 }
-.cell .form-horizontal {
+.wechat .form-horizontal {
   background-color: #FFFFFF;
   line-height: 1.47058824;
   font-size: 17px;
@@ -57,14 +54,14 @@
   position: relative;
   padding: 0 15px;
 }
-.cell .form-horizontal .form-group {
+.wechat .form-horizontal .form-group {
   position: relative;
   display: block;
   padding: 10px 15px;
   margin-bottom: -1px;
   background-color: #fff;
 }
-.cell .form-horizontal .form-group:before {
+.wechat .form-horizontal .form-group:before {
   content: " ";
   position: absolute;
   top: 0;
@@ -80,14 +77,14 @@
   width: 100%;
   z-index: 2;
 }
-.cell .form-horizontal .form-group .form-control {
+.wechat .form-horizontal .form-group .form-control {
   border: 0;
   box-shadow: none;
 }
-.cell .form-horizontal .form-group .control-label {
+.wechat .form-horizontal .form-group .control-label {
   padding: 3px 0;
 }
-.cell .form-horizontal:after {
+.wechat .form-horizontal:after {
   content: " ";
   position: absolute;
   left: 0;
@@ -103,69 +100,69 @@
   left: 15px;
   z-index: 2;
 }
-.icon-box {
+.wechat .icon-box {
   padding: 0 40px;
 }
-.icon-box .img-circle {
+.wechat .icon-box .img-circle {
   width: 100px;
   height: 100px;
   display: inline-block;
   text-align: center;
   line-height: 100px;
 }
-.icon-box .img-circle .fa {
+.wechat .icon-box .img-circle .fa {
   vertical-align: middle;
 }
-.icon-box .media-body {
+.wechat .icon-box .media-body {
   padding-top: 15px;
 }
-.icon-box .media-body p {
+.wechat .icon-box .media-body p {
   color: #666;
 }
-.panel-preview {
+.wechat .panel-preview {
   margin: 0 -15px;
   border-left: 0;
   border-right: 0;
   border-radius: 0;
 }
-.panel-preview .panel-heading {
+.wechat .panel-preview .panel-heading {
   font-size: 1.5em;
   background: none;
 }
-.panel-preview .list-group,
-.panel-preview .list-group-item {
+.wechat .panel-preview .list-group,
+.wechat .panel-preview .list-group-item {
   border: 0;
 }
-.panel-preview .panel-footer {
+.wechat .panel-preview .panel-footer {
   border-top: 1px solid #ddd;
   background: none;
   padding: 0;
   text-align: center;
 }
-.panel-preview .panel-footer .btn:last-child {
+.wechat .panel-preview .panel-footer .btn:last-child {
   border-left: 1px solid #ddd;
 }
-.panel-preview .panel-footer .btn:first-child {
+.wechat .panel-preview .panel-footer .btn:first-child {
   border-left: 0;
 }
-.modal-ios .modal-header {
+.wechat .modal .modal-header {
   border-bottom: 0;
   padding-bottom: 0;
 }
-.modal-ios .modal-content {
+.wechat .modal .modal-content {
   box-shadow: none;
 }
-.modal-ios .modal-footer {
+.wechat .modal .modal-footer {
   padding: 0;
   text-align: center;
 }
-.modal-ios .modal-footer .btn:last-child {
+.wechat .modal .modal-footer .btn:last-child {
   border-left: 1px solid #ddd;
 }
-.modal-ios .modal-footer .btn:first-child {
+.wechat .modal .modal-footer .btn:first-child {
   border-left: 0;
 }
-.toast {
+.wechat .toast {
   color: #fff;
   background: rgba(17, 17, 17, 0.7);
   border-radius: 5px;
@@ -173,6 +170,6 @@
   padding: 15px 25px;
   margin: 0 auto;
 }
-.toast > p {
+.wechat .toast > p {
   padding-top: 5px;
 }
